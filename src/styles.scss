@@ -10,8 +10,19 @@
   --white: #f7f8fa;
   --font-size: 1.3rem;
   --mono: "Oxygen mono", monospace;
-  --sand: Oxygen, sans-serif;
+  --sans: Oxygen, sans-serif;
 }
 html {
   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
