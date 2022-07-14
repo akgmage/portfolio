@@ -51,3 +51,16 @@ a:hover {
   font-size: 1rem;
   line-height: 1.5;
 }
+#intro .name {
+  font-family: var(--mono);
+}
+.name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--aqua);
+  display: block;
+}
+#intro h2 {
+  font-size: 4rem;
+  font-weight: normal;
+}
