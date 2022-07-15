@@ -5,7 +5,7 @@ import {
   faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons';
 
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faUserSecret } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
@@ -14,6 +14,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 export class NavigationComponent implements OnInit {
   faLinkedin = faLinkedin;
   faGithub = faGithub;
+  faUserSecret = faUserSecret;
   constructor() {}
 
   ngOnInit(): void {}
