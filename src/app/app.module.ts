@@ -8,10 +8,11 @@ import { IntroComponent } from './intro/intro.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { SharedModule } from './shared/shared.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, IntroComponent, ContactComponent],
-  imports: [BrowserModule, AppRoutingModule, SharedModule],
+  imports: [BrowserModule, AppRoutingModule, SharedModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })
