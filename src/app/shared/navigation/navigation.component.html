@@ -1,17 +1,34 @@
 <nav>
   <ul>
     <li>
-      <h1><a href="index.html">Abhisek Gupta</a></h1>
+      <h1>
+        <a href="index.html">
+          <span aria-hidden="true">
+            <fa-icon [icon]="faUserSecret"></fa-icon>
+          </span>
+          <span>&nbsp;Abhisek Gupta</span>
+        </a>
+      </h1>
     </li>
     <li><a href="">Projects</a></li>
     <li><a href="">About</a></li>
     <li><a href="#contact">Contact</a></li>
     <li>
-      <a href="https://www.linkedin.com/in/akgmage/" target="_blank"
-        >Linkedin</a
-      >
+      <a href="https://www.linkedin.com/in/akgmage/" target="_blank">
+        <span aria-hidden="true">
+          <fa-icon [icon]="faLinkedin"></fa-icon>
+        </span>
+        <span class="sr-only">LinkedIn</span>
+      </a>
     </li>
-    <li><a href="https://github.com/akgmage" target="_blank">Github</a></li>
+    <li>
+      <a href="https://github.com/akgmage" target="_blank">
+        <span aria-hidden="true">
+          <fa-icon [icon]="faGithub"></fa-icon>
+        </span>
+        <span class="sr-only">Github</span>
+      </a>
+    </li>
     <li><a href="">Resume</a></li>
   </ul>
 </nav>
