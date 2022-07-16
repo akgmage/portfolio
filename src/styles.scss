@@ -42,3 +42,15 @@ a:hover {
   color: var(--hotmag);
   text-decoration: none;
 }
+.button {
+  color: var(--white);
+  background-color: var(--magenta);
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-family: var(--mono);
+  text-decoration: none;
+}
+.button:hover {
+  background-color: var(--hotmag);
+  color: var(--white) !important;
+}
