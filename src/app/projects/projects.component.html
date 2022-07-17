@@ -1,23 +1,21 @@
 <div class="section-dkblue">
   <section id="projects">
     <h2>Projects that i worked on</h2>
-    <article>
+    <article
+      [ngClass]="{ reverse: i % 2 === 1 }"
+      *ngFor="let item of items; let i = index"
+    >
       <div class="text">
         <h4>Latest project</h4>
-        <h3>Something</h3>
+        <h3>{{ item.title }}</h3>
         <p class="black-box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quae
-          amet neque eligendi iste omnis quas, quibusdam cum enim sit,
-          veritatis, blanditiis dolore asperiores delectus fuga iusto sequi.
-          Cumque, quas et? Cumque est ullam animi expedita dicta eos inventore
-          quisquam libero ipsum aspernatur quaerat fugit
-          <a href="#">asdasd</a> vero quasi velit, veniam natus.
+          {{ item.description }}
         </p>
         <h4>Technologies used</h4>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JAVASCRIPT</li>
+          <li *ngFor="let technologies of item.technologies">
+            {{ technologies }}
+          </li>
         </ul>
       </div>
       <img
