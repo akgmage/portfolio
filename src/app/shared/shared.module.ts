@@ -7,8 +7,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { GradientLineComponent } from './gradient-line/gradient-line.component';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, NavigationComponent, GradientLineComponent],
+  declarations: [
+    HeaderComponent,
+    FooterComponent,
+    NavigationComponent,
+    GradientLineComponent,
+  ],
   imports: [CommonModule, FontAwesomeModule],
-  exports: [NavigationComponent, FooterComponent],
+  exports: [NavigationComponent, FooterComponent, GradientLineComponent],
 })
 export class SharedModule {}
