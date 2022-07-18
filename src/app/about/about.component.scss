@@ -1,23 +1,23 @@
 .section-dkblue {
   background-color: var(--dkblue);
 }
-#projects {
+#portfolio {
   padding: 4rem 1rem;
 }
-#projects h2 {
+#portfolio h2 {
   font-size: 2.5em;
   margin-bottom: calc(2.5rem * 1.5);
 }
-#projects h3 {
+#portfolio h3 {
   color: var(--aqua);
 }
 
-#projects h4 {
+#portfolio h4 {
   font-size: 1rem;
   font-family: var(--mono);
   margin: 0;
 }
-#projects ul {
+#portfolio ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -26,23 +26,23 @@
   justify-content: flex-start;
   gap: 1rem;
 }
-#projects img {
+#portfolio img {
   margin: 2rem 0 4rem 0;
   border-left: 1px solid var(--aqua);
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
   padding: 1rem;
 }
-#projects .reverse .text {
+#portfolio .reverse .text {
   grid-column: 1/7;
   order: 2;
   text-align: left;
 }
-#projects .reverse img {
+#portfolio .reverse img {
   grid-column: 6/11;
   grid-row: 1/2;
 }
-#projects .reverse ul {
+#portfolio .reverse ul {
   justify-content: flex-start;
 }
 .black-box {
@@ -60,11 +60,11 @@
     grid-template-columns: repeat(10, 1fr);
     gap: 1rem;
   }
-  #projects {
+  #portfolio {
     max-width: 1200px;
     margin: 0 auto;
   }
-  #projects img {
+  #portfolio img {
     grid-column: 1/6;
     grid-row: 1/2;
   }
@@ -74,7 +74,7 @@
     order: 2;
     text-align: right;
   }
-  #projects ul {
+  #portfolio ul {
     justify-content: flex-end;
   }
 }
