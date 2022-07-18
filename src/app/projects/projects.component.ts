@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   items = [
     {
+      entityName: 'Company X',
       title: 'Pathfinding Visualizer',
       description:
         'Created a visualization tool for visualizing different pathfinding algorithms like (A*, Dijkstras, BFS, DFS) to find shortest paths between nodes in a graph.',
@@ -15,12 +16,15 @@ export class ProjectsComponent implements OnInit {
       imageUrl: '../../assets/pathfindv.png',
     },
     {
-      title: 'asdas',
-      description: 'asdas da sd as das da sd as da ds as d asd as d',
+      entityName: 'Company X',
+      title: 'Sorting Visualizer',
+      description:
+        'Created a visualization tool for visualizing different sorting algorithms like Bubble sort, Insertion sort, Selection sort, Merge sort, Quick sort and Heap sort.',
       technologies: ['HTML', 'CSS', 'Javascript'],
-      imageUrl: '../../assets/pathfindv.png',
+      imageUrl: '../../assets/sortingvis.png',
     },
     {
+      entityName: 'Company X',
       title: 'asdas',
       description: 'asdas da sd as das da sd as da ds as d asd as d',
       technologies: ['HTML', 'CSS', 'Javascript'],
