@@ -28,10 +28,11 @@
 }
 #portfolio img {
   margin: 2rem 0 4rem 0;
-  border-left: 1px solid var(--aqua);
-  border-top: 1px solid var(--aqua);
+  border-right: 1px solid var(--aqua);
+  border-bottom: 1px solid var(--aqua);
   border-radius: 25px;
   padding: 1rem;
+  height: 500px;
 }
 #portfolio .reverse .text {
   grid-column: 1/7;
@@ -67,6 +68,7 @@
   #portfolio img {
     grid-column: 1/6;
     grid-row: 1/2;
+    height: 350px;
   }
   .text {
     grid-column: 5/11;
