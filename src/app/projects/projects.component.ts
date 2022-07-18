@@ -8,19 +8,23 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   items = [
     {
-      title: 'asdas',
-      description: 'asdas da sd as das da sd as da ds as d asd as d',
+      title: 'Pathfinding Visualizer',
+      description:
+        'Created a visualization tool for visualizing different pathfinding algorithms like (A*, Dijkstras, BFS, DFS) to find shortest paths between nodes in a graph.',
       technologies: ['HTML', 'CSS', 'Javascript'],
+      imageUrl: '../../assets/pathfindv.png',
     },
     {
       title: 'asdas',
       description: 'asdas da sd as das da sd as da ds as d asd as d',
       technologies: ['HTML', 'CSS', 'Javascript'],
+      imageUrl: '../../assets/pathfindv.png',
     },
     {
       title: 'asdas',
       description: 'asdas da sd as das da sd as da ds as d asd as d',
       technologies: ['HTML', 'CSS', 'Javascript'],
+      imageUrl: '../../assets/pathfindv.png',
     },
   ];
   constructor() {}
