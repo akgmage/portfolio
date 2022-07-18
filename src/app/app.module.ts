@@ -10,9 +10,17 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
 import { SharedModule } from './shared/shared.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, IntroComponent, ContactComponent, ProjectsComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    IntroComponent,
+    ContactComponent,
+    ProjectsComponent,
+    AboutComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, SharedModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
