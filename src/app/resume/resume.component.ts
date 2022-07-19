@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resume.component.scss'],
 })
 export class ResumeComponent implements OnInit {
-  pdfSrc = '../../assets/Current.pdf';
+  pdfSrc = 'assets/Current.pdf';
   constructor() {}
 
   ngOnInit(): void {}
