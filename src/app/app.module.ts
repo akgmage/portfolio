@@ -11,6 +11,8 @@ import { SharedModule } from './shared/shared.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +22,15 @@ import { AboutComponent } from './about/about.component';
     ContactComponent,
     ProjectsComponent,
     AboutComponent,
+    ResumeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, SharedModule, FontAwesomeModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    SharedModule,
+    FontAwesomeModule,
+    PdfViewerModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -24,10 +24,12 @@ export class ProjectsComponent implements OnInit {
       imageUrl: '../../assets/sortingvis.png',
     },
     {
-      entityName: 'Company X',
-      title: 'asdas',
-      description: 'asdas da sd as das da sd as da ds as d asd as d',
-      technologies: ['HTML', 'CSS', 'Javascript'],
+      entityName:
+        'A connected care platform to Simplify Healthcare Delivery for Women',
+      title: 'GenVCare',
+      description:
+        'Ready recokner for structured screening programs for cervical and breast cancer. Quick and easy user experience for screening and reporting cases. Structuring a call-recall platform for clinical surveillance',
+      technologies: ['Flutter', 'Dart', 'ASP.NET CORE'],
       imageUrl: '../../assets/pathfindv.png',
     },
   ];
