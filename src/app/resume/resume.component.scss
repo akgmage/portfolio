@@ -1,0 +1,20 @@
+/* background color divs*/
+.section-plum {
+  background-color: var(--plum);
+}
+#resume {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+  height: 550px;
+}
+
+@media (min-width: 800px) {
+  #resume {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    height: 750px;
+  }
+}
